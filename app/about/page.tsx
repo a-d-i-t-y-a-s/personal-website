@@ -19,20 +19,39 @@ export default function Page() {
                         About Me
                     </div>
                 </div>
-                <div className="flex flex-row border h-screen">
-                    <div className="flex border w-screen h-80">
-                        {/* <Image
+                <div className="flex flex-row h-screen">
+                    <div className="flex flex-col  w-80 h-80 p-10">
+                        <Image
                             src="/adi.jpg" 
                             alt="adi"
-                            layout='fill'
-                            objectFit="contain"     
-                            // height={100}
-                            // width={100}
-                        /> */}
+                            // layout="fill"
+                            // objectFit="contain"     
+                            height={100}
+                            width={250}
+                            className="rounded-xl priority flex"
+                        />
+
+                        <div className="flex flex-col justify-center align-items text-center my-5"> 
+                             Aditya Shah
+                        </div>
                     </div>
 
-                    <div className="flex border">
-
+                    <div className="flex flex-col w-screen p-10 text-lg">
+                        Hi my name is Aditya Shah and I am currently an undergradute student at Rochester Institute of Technology. 
+                        I was born in the United States but grew up in Kathmandu, Nepal. 
+                        <br></br>
+                        <br></br>
+                        I started programming in middle school where I would create small little games on Scratch. I got inspired 
+                        by that and realized I had the power to create anything I want. Fast-forward to today, I have interned at 
+                        Pitstop Nepal and Fonepay. I enjoy building web applications that are driven to solve a problems that people face
+                        in an efficient manner. I always hate using a website that has a convulatde page layout structure when it can be made
+                        easier for both the programmer and the user. 
+                        
+                        <br></br>
+                        <br></br>
+                        My primary focus nowadays is learning as much as I can in university and applying it through personal projects.
+                        I am currently looking for a Summer 2024 internship/coop in positions such as Software Engineering, Software
+                        Engineering, Product Manager, and AI/ML Intern.     
                     </div>
                 </div>
                
