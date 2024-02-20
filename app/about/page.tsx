@@ -5,7 +5,7 @@ import { Montserrat } from "next/font/google"
 
 export default function Page() {
     return (
-        <main className="h-screen flex flex-col overflow-hidden">
+        <main className="h-screen flex flex-col overflow-hidden overflow-y-auto md:overflow-hidden ">
              <div className="flex flex-row justify-content p-10 w-screen">
                     <Link href="/">
                     <Image
@@ -19,7 +19,7 @@ export default function Page() {
                         About Me
                     </div>
                 </div>
-                <div className="flex flex-row h-screen">
+                <div className="flex flex-col lg:flex-row h-screen">
                     <div className="flex flex-col  w-80 h-80 p-10">
                         <Image
                             src="/adi.jpg" 
@@ -31,12 +31,12 @@ export default function Page() {
                             className="rounded-xl priority flex"
                         />
 
-                        <div className="flex flex-col justify-center align-items text-center my-5"> 
+                        <div className="hidden md:flex flex-col justify-center align-items text-center my-5"> 
                              Aditya Shah
                         </div>
                     </div>
 
-                    <div className="flex flex-col w-screen p-10 text-lg">
+                    <div className="flex flex-col w-screen p-10 text-lg mt-10 md:mt-0">
                         Hi my name is Aditya Shah and I am currently an undergradute student at Rochester Institute of Technology. 
                         I was born in the United States but grew up in Kathmandu, Nepal. 
                         <br></br>
