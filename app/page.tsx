@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="flex h-screen flex-col items-center justify-between p-12">
-      <div className="flex z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex box-border border m-4 border-1 border-black p-4 rounded-md">
+      <div className="hidden md:flex z-10 max-w-5xl w-full items-center justify-between align-items font-mono text-sm lg:flex box-border border m-4 border-1 border-black p-4 rounded-md">
         <div className="flex h-6 w-full items-end justify-between ">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-4 lg:pointer-events-auto lg:p-0"
@@ -74,10 +74,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-      </div>
+      {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+      </div> */}
 
-      <div className='flex items-center justify-center mb-40'>
+      <div className='flex items-center md:text-center justify-center mb-40'>
       <p className='text-4xl'>
           Aditya Shah's Portfolio
         </p>
