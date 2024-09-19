@@ -49,7 +49,7 @@ export default function Home() {
           >
             {' '}
             <Image
-              src="/instagram.svg"
+              src="/instagram11.svg"
               alt="instagram Logo"
               className="dark:invert"
               width={25}
@@ -63,7 +63,7 @@ export default function Home() {
           >
             {' '}
             <Image
-              src="/gmail.svg"
+              src="/mail.svg"
               alt="gmail Logo"
               className="dark:invert"
               width={25}
