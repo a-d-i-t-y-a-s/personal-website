@@ -47,7 +47,7 @@ export default function Page() {
                                 Skills: Python (pandas, matplotlib, python)</div>
                             </div>
                         </Link>
-                        <Link target="_blank" href="https://arxiv.org/abs/2312.03020" rel="noopener noreferrer">
+                        <Link target="_blank" href="https://digitalcommons.butler.edu/bjur/vol10/iss1/8/" rel="noopener noreferrer">
                             <div className='text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-9xl font-serif hover:italic'> ML Research Paper
                                 <div className="text-xl space-y-20 ml-5 mt-5"> 
                                 Researched and deployed a CNN that can detect tumors in ultrasound scans. We utilized Google's MobileNetV2.
