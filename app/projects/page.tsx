@@ -26,7 +26,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="flex flex-col flex-grow overflow-y-auto space-y-1 hide-scrollbar mb-20 md:text-lg">
-                    <Link target="_blank" href="https://nasdashboardpublic-e2dbws5d7-adityas-projects-7b8d16cc.vercel.app/dashboard" rel="noopener noreferrer">
+                    <Link target="_blank" href="https://nasdashboardpublic.vercel.app/dashboard" rel="noopener noreferrer">
                         <div className='text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-9xl font-serif hover:italic'> NAS Dashboard
                             <div className="text-lg space-y-5 ml-5 mt-5"> 
                             This project is dashboard for a company I created over coop. It was used to visualize the status of projects across the company. This is purely the frontend, but the backend was created in .NET and integrated a SQL database. It was then hosted all in house on a windows server. <br></br>
